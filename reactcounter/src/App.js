@@ -15,8 +15,8 @@ function App() {
       <div>
         <h2>Сколько же получится?хммм</h2>
         <h1>{count}</h1>
-        <button onClickPlus={onClickPlus} className="minus">Похож на минус 1</button>
-        <button onClickMinus={onClickMinus} className="plus">Похож на плюс 1</button>
+        <button onClick={onClickPlus} className="minus">Похож на минус 1</button>
+        <button onClick={onClickMinus} className="plus">Похож на плюс 1</button>
       </div>
     </div>
   );
